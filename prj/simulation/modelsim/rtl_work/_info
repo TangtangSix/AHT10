@@ -1,0 +1,164 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dG:/FPGAProject/EP4CE6F17C8/AHT10/prj/simulation/modelsim
+vaht10_top
+Z1 !s110 1659421811
+!i10b 1
+!s100 dj7l:VAR5Ugm9jzed87JC3
+I?08cmK97XAdJjU14L]d7<3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1659420551
+8G:/FPGAProject/EP4CE6F17C8/AHT10/src/aht10_top.v
+FG:/FPGAProject/EP4CE6F17C8/AHT10/src/aht10_top.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1659421811.000000
+!s107 G:/FPGAProject/EP4CE6F17C8/AHT10/src/aht10_top.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+G:/FPGAProject/EP4CE6F17C8/AHT10/src|G:/FPGAProject/EP4CE6F17C8/AHT10/src/aht10_top.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work +incdir+G:/FPGAProject/EP4CE6F17C8/AHT10/src
+Z7 tCvgOpt 0
+vdata_drive
+Z8 !s110 1659421810
+!i10b 1
+!s100 Y;:C<;5l9L]YYIHY3>5TI1
+In^`H:P?NCi06B0Bz`7dg60
+R2
+R0
+w1659408762
+8G:/FPGAProject/EP4CE6F17C8/AHT10/src/data_drive.v
+FG:/FPGAProject/EP4CE6F17C8/AHT10/src/data_drive.v
+L0 1
+R3
+r1
+!s85 0
+31
+Z9 !s108 1659421810.000000
+!s107 G:/FPGAProject/EP4CE6F17C8/AHT10/src/data_drive.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+G:/FPGAProject/EP4CE6F17C8/AHT10/src|G:/FPGAProject/EP4CE6F17C8/AHT10/src/data_drive.v|
+!i113 1
+R5
+R6
+R7
+vfifo
+R1
+!i10b 1
+!s100 dIi4gT>@0iom<JL7j`LGE2
+I`_UnK6^@GLlj6KBHPzO<02
+R2
+R0
+w1659344968
+8G:/FPGAProject/EP4CE6F17C8/AHT10/ip/fifo.v
+FG:/FPGAProject/EP4CE6F17C8/AHT10/ip/fifo.v
+L0 39
+R3
+r1
+!s85 0
+31
+R4
+!s107 G:/FPGAProject/EP4CE6F17C8/AHT10/ip/fifo.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+G:/FPGAProject/EP4CE6F17C8/AHT10/ip|G:/FPGAProject/EP4CE6F17C8/AHT10/ip/fifo.v|
+!i113 1
+R5
+!s92 -vlog01compat -work work +incdir+G:/FPGAProject/EP4CE6F17C8/AHT10/ip
+R7
+vi2c_intf
+R1
+!i10b 1
+!s100 jNCg7<>[PebIVkR5[VZ9i2
+ID2CQFa`;:JeDHdz;o`mCa2
+R2
+R0
+w1659355730
+8G:/FPGAProject/EP4CE6F17C8/AHT10/src/i2c_intf.v
+FG:/FPGAProject/EP4CE6F17C8/AHT10/src/i2c_intf.v
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+!s107 G:/FPGAProject/EP4CE6F17C8/AHT10/src/param.v|G:/FPGAProject/EP4CE6F17C8/AHT10/src/i2c_intf.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+G:/FPGAProject/EP4CE6F17C8/AHT10/src|G:/FPGAProject/EP4CE6F17C8/AHT10/src/i2c_intf.v|
+!i113 1
+R5
+R6
+R7
+vi2c_master
+R1
+!i10b 1
+!s100 UmTT14G<^FioWli8<eE=d3
+I0bT9dnhiTUDn^dm@WXYFl0
+R2
+R0
+w1659421807
+8G:/FPGAProject/EP4CE6F17C8/AHT10/src/i2c_master.v
+FG:/FPGAProject/EP4CE6F17C8/AHT10/src/i2c_master.v
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+!s107 G:/FPGAProject/EP4CE6F17C8/AHT10/src/param.v|G:/FPGAProject/EP4CE6F17C8/AHT10/src/i2c_master.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+G:/FPGAProject/EP4CE6F17C8/AHT10/src|G:/FPGAProject/EP4CE6F17C8/AHT10/src/i2c_master.v|
+!i113 1
+R5
+R6
+R7
+vtb
+R1
+!i10b 1
+!s100 E2B3CM`HHCX7m0TG5I>8Y2
+Ikzcl@8Q^fkC]fh5AAc29k3
+R2
+R0
+w1659421672
+8G:/FPGAProject/EP4CE6F17C8/AHT10/prj/../sim/tb.v
+FG:/FPGAProject/EP4CE6F17C8/AHT10/prj/../sim/tb.v
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+!s107 G:/FPGAProject/EP4CE6F17C8/AHT10/prj/../sim/tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+G:/FPGAProject/EP4CE6F17C8/AHT10/prj/../sim|G:/FPGAProject/EP4CE6F17C8/AHT10/prj/../sim/tb.v|
+!i113 1
+R5
+!s92 -vlog01compat -work work +incdir+G:/FPGAProject/EP4CE6F17C8/AHT10/prj/../sim
+R7
+vuart_tx
+R8
+!i10b 1
+!s100 VPVVBV15Wa8YJ0SENKnj?0
+IB8=C9KC_LC]R]cC5OE2Vo3
+R2
+R0
+w1656070980
+8G:/FPGAProject/EP4CE6F17C8/AHT10/src/uart_tx.v
+FG:/FPGAProject/EP4CE6F17C8/AHT10/src/uart_tx.v
+L0 1
+R3
+r1
+!s85 0
+31
+R9
+!s107 G:/FPGAProject/EP4CE6F17C8/AHT10/src/uart_tx.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+G:/FPGAProject/EP4CE6F17C8/AHT10/src|G:/FPGAProject/EP4CE6F17C8/AHT10/src/uart_tx.v|
+!i113 1
+R5
+R6
+R7

@@ -1,0 +1,16 @@
+Fitter Status : Successful - Tue Aug 02 14:10:20 2022
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Standard Edition
+Revision Name : aht10_top
+Top-level Entity Name : aht10_top
+Family : Cyclone IV E
+Device : EP4CE6F17C8
+Timing Models : Final
+Total logic elements : 3,585 / 6,272 ( 57 % )
+    Total combinational functions : 3,072 / 6,272 ( 49 % )
+    Dedicated logic registers : 1,165 / 6,272 ( 19 % )
+Total registers : 1165
+Total pins : 5 / 180 ( 3 % )
+Total virtual pins : 0
+Total memory bits : 168,192 / 276,480 ( 61 % )
+Embedded Multiplier 9-bit elements : 8 / 30 ( 27 % )
+Total PLLs : 0 / 2 ( 0 % )

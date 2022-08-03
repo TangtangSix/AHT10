@@ -1,0 +1,20 @@
+
+State Machine - |aht10_top|i2c_master:u_i2c_master|state_c
+Name state_c.READ state_c.WAIT state_c.TRIGGER state_c.IDLE state_c.CHECK_INIT state_c.INIT state_c.START 
+state_c.START 0 0 0 0 0 0 0 
+state_c.INIT 0 0 0 0 0 1 1 
+state_c.CHECK_INIT 0 0 0 0 1 0 1 
+state_c.IDLE 0 0 0 1 0 0 1 
+state_c.TRIGGER 0 0 1 0 0 0 1 
+state_c.WAIT 0 1 0 0 0 0 1 
+state_c.READ 1 0 0 0 0 0 1 
+
+State Machine - |aht10_top|i2c_intf:u_i2c_intf|state_c
+Name state_c.STOP state_c.SACK state_c.READ state_c.RACK state_c.WRITE state_c.START state_c.IDLE 
+state_c.IDLE 0 0 0 0 0 0 0 
+state_c.START 0 0 0 0 0 1 1 
+state_c.WRITE 0 0 0 0 1 0 1 
+state_c.RACK 0 0 0 1 0 0 1 
+state_c.READ 0 0 1 0 0 0 1 
+state_c.SACK 0 1 0 0 0 0 1 
+state_c.STOP 1 0 0 0 0 0 1 
